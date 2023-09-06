@@ -36,8 +36,7 @@ function Easy()
     rows=3;
     columns=3;
     if(bool){
-        // imgOrder = ["2","1","4","5","3","6","7","9","8"];
-        imgOrder = ["1","3","2","4","5","6","7","8","9"];
+        imgOrder = ["2","1","4","5","3","6","7","9","8"];
         document.querySelector(".fa-solid").style.visibility="hidden";
         document.querySelector(".fa-regular").style.visibility="visible";
     }
