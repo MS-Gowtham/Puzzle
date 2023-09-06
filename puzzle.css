@@ -1,0 +1,150 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(315deg, #F8F9D2 0%, #E8DBFC 74%);
+    background-color: #F8F9D2;
+    overflow: hidden;
+}
+
+.Puzzle{
+    margin-top: 2px;
+}
+
+#board{
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    border: 10px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2px;
+
+   
+    /* background-image: url("bgcolor1.avif"); */
+}
+
+#popup{
+    width: 600px;
+    position: absolute;
+    left: 320px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#popup div{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#popup p{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.replaynext{
+    display: flex;
+    justify-content: space-between;
+}
+
+#popup .replaynext p{
+    font-size: 22px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#popup .replaynext p:hover{
+    color: white;
+    background-color: black;
+}
+
+.bulb{
+    margin-top: 8px;
+    position: relative;
+}
+.bulb i{
+    font-size: 24px;
+    cursor: pointer;
+}
+.bulb h2{
+    margin-top: 2px;
+}
+.bulb .fa-solid{
+    position: absolute;
+    right: 622px;
+    visibility: hidden;
+}
+.bulb .fa-regular{
+    visibility: hidden;
+}
+
+
+
+
+
+.turns,.board{
+   visibility:hidden;
+}
+
+#board img{
+    width: 88px;
+    height: 88px;
+    border: 1px solid white;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start h1{
+    width: 250px;
+    border:1px solid #0c67ae ;
+    border-radius: 20px;
+}
+
+
+.difficulty{
+    display: flex;
+    justify-content: center;
+   
+}
+.difficulty p{
+    width: 200px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.startgame{
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: transparent;
+}
+
+.startgamehidden{
+    display: none;
+}
+
+
+
+
+/* .difficulty p:hover{
+    color: #0c67ae ;
+} */
+
+
+
+
+
+

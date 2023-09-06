@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Task</title>
+    <link rel="stylesheet" href="puzzle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   
+    
+</head>
+<body>
+   
+        
+    <h1 class="Puzzle">Puzzle</h1>
+
+    <div id="popup" class="popup">
+        <p>You won the game by <span id="won">0</span> turns</p>
+        <div class="replaynext">
+            <p onclick="replay()">Replay</p>
+            <p onclick="next()">Next</p>
+        </div>
+    </div>
+
+    <h1 onclick="start()" class="startgame">start game</h1>
+
+    <div id="board" class="board">
+    </div>
+    <!-- <div>
+        <i class="fa-regular fa-lightbulb fa-bounce"></i>
+    </div> -->
+    
+
+    <div class="bulb">
+        <i class="fa-regular fa-lightbulb" onclick="solvePuzzle()"></i>
+        <i class="fa-solid fa-lightbulb"></i>
+        <h2 class="turns">Turns <span id="turns">0</span></h2>
+    </div>
+
+    <div class="difficulty">
+       <p id="easy" onclick="Easy()">Easy</p>
+        <p id="medium" onclick="Medium()">Medium</p>
+        <p id="hard" onclick="Hard()">Hard</p>
+    </div>
+</body>
+<script src="puzzle.js"></script>
+</html>
